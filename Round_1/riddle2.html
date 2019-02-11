@@ -1,19 +1,18 @@
  <HTML>
-     <BODY >
-         <p id = "scanner">
-             RIDDLE 2:
-         </p>
-         <p id = "scannedTextMemo">
-             Heck
-         </p>
-         <p id = "scanner">
-             <INPUT type="button" name="qrbut" id="qrbut" onlclick="JsQRScannerReady()" value="Click here for qr scanner">
-         </p>
-   
-   
-   
-   
-    <script src="./js/riddle_2.js"></script>
+     <head>
+</head>
+  <BODY >
+      
+      <p id="test"></p>
+      <form action="./showriddle2.html" method="GET" onsubmit="return checkans()">
+        Enter the answer to riddle 1 to unlock riddle 2 : <input type="text" name="ans1" id="ans1"><BR>
+        <br>
+        <button type="submit" name="ans1submit" value="unlock" id="unlock" onclick="generate_random_riddles()">Unlock</button>   
+    </form>
+    <p id="r2">
+        
+    </p>
     
-     </BODY>
+    <script src="./js/riddle_2.js"></script>
+  </BODY>
  </HTML>

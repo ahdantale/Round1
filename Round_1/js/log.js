@@ -1,4 +1,4 @@
-
+//LOG JS
 //Creating JSON for ids and passwords
 var credentials_teams = [
   {"Teampass":16201},

@@ -1,3 +1,4 @@
+//RIDDLERJS JS
 //Function to write strings in HTML Page
 function write_where_id(id_object,string_to_be_written){
     document.getElementById(id_object).innerHTML = string_to_be_written
