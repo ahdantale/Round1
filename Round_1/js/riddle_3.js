@@ -29,20 +29,28 @@ var riddle_answers_3 = [
 
 //Taking the reference of riddles of round 2 for the checkans()
 var riddles_2 = [
-    "EMERGENCY...EMERGENCY!!!!!	Its getting red hot, come fast , spray me and save your life.!!!",
-    "I stand alone in one corner of every floor, blue with lonliness.You come and meet me when u run out of life.Guess who i am??",
-    "What is black when it is clean and white when it is dirty?I am on the walls.",
-    "What object has keys that open no locks, space but no room, and you can enter but not go in ?",
-    "I am a level on top of a level, I give a direct view to the blue and serve as  chill out spot for the hot shot."
+  "EMERGENCY...EMERGENCY!!!!!	Its getting red hot, come fast , spray me and save your life.!!!",
+  "I stand alone in one corner of every floor, blue with lonliness.You come and meet me when u run out of life.Guess who i am??",
+  "What is black when it is clean and white when it is dirty?I am on the walls.",
+  "What object has keys that open no locks, space but no room, and you can enter but not go in ?",
+  "I am a level on top of a level, I give a direct view to the blue and serve as  chill out spot for the hot shot.",
+  "I go round and round but always remain wound,You unwind me when things go unsound and hot.",
+  "I have electrons running in my veins hanging on the walls, I make the world run at the speed of light, I am the branch of Satya Nadella, I've an eye on the stairs.",
+  "***wecome to gcoen annex building ***  everyone passes through me as you you enter ...    i hinge opposite  to parking  ..you think of me as one  but we are more then one  ....",
+  "***CRADLE OF ENGG EXCELLENCE*** I cradle on the wall below the 1st level on the top..."
 ]
 
 //Setting up answers
-var riddle_answers_2 = [
-    {"ridans":"FIREEXTINGUISHER"},
-    {"ridans":"WATERCOOLER"},
-    {"ridans":"BLACKBOARD"},
-    {"ridans":"KEYBOARD"},
-    {"ridans":"TERRACE"},
+var riddle_answers_2 =  [
+  {"ridans":"FIREEXTINGUISHER"},
+  {"ridans":"WATERCOOLER"},
+  {"ridans":"BLACKBOARD"},
+  {"ridans":"KEYBOARD"},
+  {"ridans":"TERRACE"},
+  {"ridans":"FIREPIPE"},
+  {"ridans":"ELE"},
+  {"ridans":"MAINDOOR"},
+  {"ridans":"AIMPOSTER"}
 
 ]
 

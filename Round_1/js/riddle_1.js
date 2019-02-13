@@ -1,18 +1,32 @@
+//Keeping track of the login id
+var logid = window.localStorage.loginid
+var lgid = logid
+console.log(logid)
+document.getElementById("test").innerHTML = "" + logid
+
 //Setting up riddles for sbround1
 var riddles = [
   "I drink, but not from a glass. I use thousands of fingers to eat. I live in the parking lot of this college.Guess who i am ?",
   "I'm the only 24*7 supplier of method of exchange.I stay cool through out the day.Who am i?",
   "I am standing where the careers of the student reside.I am the child of Royal Enfield.What u are looking for is inside me.Come and get me.",
   "I'm full of pins and interesting stuff,People stare and can't get enough,Paper and invites hang around,Up on the wall I can be found.",
-  "I am the child of a half bitten apple, I inspire you to get through life even though life hits you with bricks."
+  "I am the child of a half bitten apple, I inspire you to get through life even though life hits you with bricks.",
+  "I go up and down, round and round, but never move. You may find the next riddle at one of my ends.",
+  "I hang on the wall, I describe a science and also an engineering, I am a level below the topmost level having an eye on the stairs.",
+  "I reside outside the Head's Cabins, Serve as the resting spot of 2 students awaiting detention, I am a block body having iron inside me.",
+  "You give me electricity, I give you wind , you find me in the room, you met the coordinators in "
 ]
 //Setting up answers
-var riddle_answers = [
+var riddle_answers_1 = [
   {"ridans":"TREE"},
   {"ridans":"IDBIATM"},
   {"ridans":"HELMET"},
   {"ridans":"NOTICEBOARD"},
   {"ridans":"JOBSQUOTE"},
+  {"ridans":"STAIRS"},
+  {"ridans":"CSE"},
+  {"ridans":"BENCH"},
+  {"ridans":"FAN"}
 
 ]
 //0 indicates false here
@@ -28,7 +42,7 @@ localStorage.anstoriddle3=0
 //Generate Random index only after the riddle 1 button is clicked from riddler.html nav bar
 function generate_random_riddles(){
   //Generating Random Indexes
-  var index_random = Math.floor((Math.random()*5)+(0))
+  var index_random = Math.floor((Math.random()*9)+(0))
   localStorage.inrand = Number(index_random)
   console.log(index_random)
 }
