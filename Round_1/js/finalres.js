@@ -12,7 +12,7 @@ var riddles_3 = [
     "I made Facebook what it is today, I run on its servers to maintain your virtual id. Hint: Formerly called personal home pages.",
     "I am Chinese and fully fantastic. I make the Thinkpad and acquire Motorola just for fun.",
     "GNU's is not unix and I am fantastic.I am the backbone of android,serve as the most widely deployed kernel in the world, I wear a Red hat, I am distributed in many forms , guess who am I.",
-    "I acquired Flipkart in August of 2018",
+    "I am the MNC that, acquired Flipkart in August of 2018",
     "A programming language and a physical disability, I infect Dustin in stranger things.",
     "I am round, I am under the ground, I shine and I am fine and expensive. Also I am a programming language created by the WALL"
 ]

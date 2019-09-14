@@ -34,7 +34,7 @@ var riddle_answers_2 =  [
 var riddles = [
   "I drink, but not from a glass. I use thousands of fingers to eat. I live in the parking lot of this college.Guess who i am ?",
   "I'm the only 24*7 supplier of method of exchange.I stay cool through out the day.Who am i?",
-  "I am standing where the careers of the student reside.I am the child of Royal Enfield.What u are looking for is inside me.Come and get me.",
+  "I am standing where the careers of the student reside.I am the burden of a bike, I protect your head when you fall and make your head wet when its hot.What u are looking for is inside me.Come and get me.",
   "I'm full of pins and interesting stuff,People stare and can't get enough,Paper and invites hang around,Up on the wall I can be found.",
   "I am the child of a half bitten apple, I inspire you to get through life even though life hits you with bricks.",
   "I go up and down, round and round, but never move. You may find the next riddle at one of my ends.",
